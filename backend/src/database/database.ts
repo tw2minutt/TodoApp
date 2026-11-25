@@ -1,6 +1,5 @@
 import pg from "pg";
 import dotenv from "dotenv";
-import { getTodos } from "./services/todo.service";
 
 dotenv.config();
 console.log("database.ts loaded");
