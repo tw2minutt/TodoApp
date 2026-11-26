@@ -3,9 +3,6 @@ import { registerController } from "../controllers/auth.controller";
 
 const router = Router();
 
-router.get("/", );
-router.post("/", registerController);
-router.patch("/:id", );
-router.delete("/:id", );
+router.post("/register", registerController);
 
 export default router;
